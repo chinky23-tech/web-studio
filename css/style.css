@@ -236,8 +236,9 @@ span{
     line-height: 1.1;
     
 }
+
 .gradient-text {
-  color: #3f51b5; /* fallback color */
+  color: var(--color-two); 
   background: linear-gradient(to right,var(--hot-pink), var(--color-one), var(--color-two), var(--color-three), var(--color-four));
   background-clip: text;
   -webkit-background-clip: text;
