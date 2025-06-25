@@ -13,6 +13,10 @@ body,html{
   --pale-sky-blue: #d6f4ff;
   --light-cyan-blue: #81f3ff;
   --mint-green: #54ecc4;
+  --color-one: #9c27b0;
+  --color-two: #3f51b5;
+  --color-three: #03a9f4;
+  --color-four: #4caf50;
 
 }
 body{
@@ -225,8 +229,23 @@ span{
 }
 .services h2{
     text-align: center;
-    margin-bottom: 50px;
+ 
+    font-size: 2rem;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.1;
+    
 }
+.gradient-text {
+  color: #3f51b5; /* fallback color */
+  background: linear-gradient(to right,var(--hot-pink), var(--color-one), var(--color-two), var(--color-three), var(--color-four));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+
 .service-grid{
 display: grid;
 
@@ -234,19 +253,22 @@ grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 gap: 20px;
 } 
 .service-card{
-    background-color: var(--bg-nav);
+    background-color: var(--text-primary);
    height: 200px;
    border-radius: 10px;
  text-align: center;
 padding: 20px;
-box-shadow: 0px  0px 1px var(--primary-text);
+border: solid 1px var(--primary-text);
+box-shadow: 0px 2px 3px var(--primary-text);
 transition: transform 0.3s ease, box-shadow 0.3s ease;
+margin-top: 80px;
 
 }
 .service-card h3{
     color: var(--primary-text);
     margin: 60px 0 0px 0px;
     font-size: 20px;
+    
 }
 .service-card p{
     font-size: 18px;
