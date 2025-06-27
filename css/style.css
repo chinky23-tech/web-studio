@@ -17,6 +17,7 @@ body,html{
   --color-two: #3f51b5;
   --color-three: #03a9f4;
   --color-four: #4caf50;
+  --black: #000000;
 
 }
 body{
@@ -54,12 +55,12 @@ body{
     bottom: 0;
     height: 2px;
     width: 0;
-    background-color: var(--secondary-text);
+    background-color: var(--primary-text);
     transition: width 0.3s ease;
  }
  .navlinks a:hover{
-    color: var(--secondary-text);
-    text-shadow: 0px 1px 1px var(--primary-text);
+    color: var(--primary-text);
+    text-shadow: 0px 1px 1px  var(--black);
     
  }
  .navlinks a:hover:after{
@@ -131,10 +132,10 @@ span{
     text-align: center;
     position: relative;
     z-index: 1;
-    transition: background 0.5s ease;
+    transition: background 0.3s ease;
 }
 .hero:hover{
-    background-image: linear-gradient(to right top, var(--light-cyan-blue),var(--mint-green),var(--pale-sky-blue));
+    background-image: linear-gradient(to right top, var(--light-cyan-blue),var(--pale-sky-blue));
 }
 .hero-text h1 {
  
@@ -220,6 +221,7 @@ span{
       .btn{
         font-size: 0.8rem;
       }
+  
     
 }
 .services{
@@ -282,7 +284,7 @@ gap: 20px;
    border-radius: 10px;
  text-align: center;
 padding: 20px;
-/*border: solid 1px var(--primary-text);*/
+
 border: none;
 box-shadow: 0px 2px 6px var(--primary-text);
 transition: transform 0.3s ease, box-shadow 0.3s ease;
