@@ -7,7 +7,7 @@ hamburger.addEventListener('click', () => {
 });
 
 //color changes hero section scroll up down
-document.addEventListener('DOMContentLoaded', function () {
+/*document.addEventListener('DOMContentLoaded', function () {
   const hero = document.querySelector('.hero');
 
   window.addEventListener('scroll', function () {
@@ -17,4 +17,4 @@ document.addEventListener('DOMContentLoaded', function () {
     hero.style.backgroundImage = `linear-gradient(135deg, hsl(${hue}, 100%, 70%), hsl(${(hue + 30) % 360}, 100%, 70%))`;
   });
 });
-
+*/
