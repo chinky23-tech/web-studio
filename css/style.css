@@ -25,10 +25,12 @@ body,html{
   --color-secondary: #a777e3;
   --color-accent-1: #f54ea2;
   --color-accent-2: #ff7676;
-  --color-accent-3: #17ead9;
+ --color-accent-3: #81F3FF;
   --color-accent-4: #6078ea;
   --color-accent-5: #42e695;
   --color-accent-6: #3bb2b8;
+  
+
   /*gradients */
    --gradient-primary: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
   --gradient-accent-1: linear-gradient(135deg, var(--color-accent-1), var(--color-accent-2));
@@ -140,7 +142,7 @@ span{
 
 .hero{
     padding: 50px 20px;
-    height: 600px;
+    height: 400px;
    background: var(--gradient-accent-2);
     display: flex;
     align-items: center;
@@ -150,11 +152,13 @@ span{
     z-index: 1;
     transition: background 0.5s ease;
 }
- 
+.hero-text h1{
+    margin-bottom: 3rem;
+}
 .hero-text p{
    
-    color: var(--primary-text);
-    margin-bottom: 3rem;
+   
+    margin-bottom: 2rem;
 }
 .hero a {
     text-decoration: none;
@@ -162,7 +166,7 @@ span{
 }
 .btn {
     display: inline-block !important;
-    background-image: linear-gradient(to right top, var(--pale-sky-blue), var(--light-cyan-blue));
+    background-image: var(--gradient-accent-2);
     
     padding: 12px;
     
