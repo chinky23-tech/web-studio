@@ -401,3 +401,31 @@ border-radius: 10px;
     transform: translateY(-8px);
 box-shadow: 0px 4px 8px var(--primary-text);
 }
+.projects{
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.projects-header{
+    max-width: 550px;
+    line-height: 1.1;
+}
+.project-header-p{
+max-width: 600px;
+font-size: 18px;
+margin-top: 10px;
+line-height: 1.2;
+}
+.project-btn{
+    padding: 10px;
+    font-size: 14px;
+    background-color: var(--text-primary);
+    border: 1px solid var(--black);
+    border-radius: 18px;
+    box-shadow: 0px 2px 4px var(--black);
+    transition: 0.3 ease;
+    transform: translateY(-5px);
+}
