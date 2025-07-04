@@ -429,3 +429,11 @@ line-height: 1.2;
     transition: 0.3 ease;
     transform: translateY(-5px);
 }
+.projects-detail{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.projects-description{
+    max-width: 400px;
+margin: 0 auto;}
