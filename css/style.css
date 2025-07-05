@@ -409,12 +409,29 @@ box-shadow: 0px 4px 8px var(--primary-text);
     display: flex;
 }
 .projects-wrapper{
-   
-    display: flex;
-    justify-content: space-between;
+   display: flex;
+   justify-content: space-between;
+   gap: 40px;
    align-items: center;
-    
+   margin: 0 auto;
+    }
+.projects-header{
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+   
 }
+.header{
+ 
+
+    color: var(--color-two); 
+  background: linear-gradient(to right,var(--hot-pink), var(--color-one), var(--color-two), var(--color-three), var(--color-four));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
 
 /* Wrapper for flex alignment */
 .project-wrapper {
