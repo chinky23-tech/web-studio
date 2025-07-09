@@ -296,7 +296,12 @@ gap: 20px;
         font-size: 0.8rem;
       }
   
-    
+    .service-suite__grid{
+    display: grid;
+
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: 20px;
+}
 }
 .services{
     padding: 50px 20px;
@@ -533,25 +538,45 @@ hr {
 }
 .industry-name h1{
   text-align: center;
+  padding: 20px;
+
+
 }
 .industry-wrapper{
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
-  gap: 20px;
+  gap: 30px;
+ 
+  
 }
 .industry-cards{
-  padding: 10px;
-  box-shadow: 0px 2px 4px var(--primary-text);
-  background-color: var(--color-accent-2);
-  color: var(--text-primary);
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+padding: 10px;
+
+  box-shadow: 0px 2px 4px   var(--primary-text);
+  background-color: var(--text-primary);
+  color: var(--black);
   border-radius: 15px;
   transition: all 1s ease;
 }
 .industry-cards:hover{
-  transform: translateY(-5px) ;
+  transform: translateY(-3px) ;
 }
 .industry-cards p{
-  line-height: 2;
+  line-height: 1.5;
   font-size: 18px;
+  text-align: left;
   
+}
+
+.industry-cards i{
+  font-size: 25px;
+  margin-top: 20px;
+}
+.industry-cards h4{
+  font-size: 20px;
+  margin-bottom: 0;
 }
